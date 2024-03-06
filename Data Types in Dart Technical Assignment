@@ -1,0 +1,30 @@
+void main() {
+  // Integer: Used for whole numbers
+  int age = 30;
+
+  // Double:Used for floating-point numbers
+  double temperature = 30.5;
+
+  // String:Used for text
+  String name = "Loice Laura";
+
+  // List:Used for storing ordered collections of items
+  List<int> numbers = [1, 2, 3, 4, 5];
+
+  // Map:Used for storing key-value pairs
+  Map<String, dynamic> person = {
+    'name': 'Charles',
+    'age': 35,
+    'isStudent': true,
+  };
+
+  // Printing out the values
+  print("Age: $age");
+  print("Temperature: $temperature");
+  print("Name: $name");
+  print("Numbers: $numbers");
+  print("Person: $person");
+
+
+}
+
